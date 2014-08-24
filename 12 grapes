@@ -1,0 +1,6 @@
+$url = 'http://goo.gl/fbsS';
+echo '<h2>Expand Example</h2>';
+$expand_url = $this->google_url_api->expand($url);
+echo $url . " => " . $expand_url->longUrl . "<br />";
+echo 'Response code: ' . $this->google_url_api->get_http_status() . "<br />";
+echo 'Response status: ' . $expand_url->status;
