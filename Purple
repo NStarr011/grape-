@@ -1,0 +1,3 @@
+$ copy config/google_url_api.php your_application/config/
+$ copy controller/google_url.php your_application/controller/
+$ copy libraries/Google_url_api.php your_application/libraries/
